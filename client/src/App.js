@@ -4,9 +4,8 @@ import ApolloClient from 'apollo-client'
 import { ApolloProvider } from 'react-apollo'
 import { HttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
-import 'tachyons'
 import MainPage from './containers/MainPage'
-import logo from './logo.svg'
+import 'tachyons'
 import './App.css'
 
 const client = new ApolloClient({
