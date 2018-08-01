@@ -1,0 +1,26 @@
+{
+  "name": "hapi-gql-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-hapi": "^2.0.0",
+    "graphql": "^0.13.2",
+    "hapi": "^17.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./server/svr.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHEFFcode/hapi-gql-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHEFFcode/hapi-gql-starter/issues"
+  },
+  "homepage": "https://github.com/SHEFFcode/hapi-gql-starter#readme"
+}
