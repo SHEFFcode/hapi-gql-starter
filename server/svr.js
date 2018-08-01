@@ -1,4 +1,4 @@
-const { ApolloServer, gql } = require('apollo-server-hapi')
+const { ApolloServer } = require('apollo-server-hapi')
 const Hapi = require('hapi')
 const typeDefs = require('./schema/schema')
 const resolvers = require('./resolvers/resolvers')

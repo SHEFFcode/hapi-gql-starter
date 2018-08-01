@@ -1,19 +1,8 @@
-const schema = `
-  type User {
-    id: ID!
-    email: String!
-  }
+const { gql } = require('apollo-server-hapi')
+
+module.exports = gql`
   type Query {
-    getUserById(id: ID!): User
-    getUserByEmail(email: String!): User
-  }
-  type Mutation {
-    createUser(email: String!): User
-  }
-  schema {
-    query: Query
-    mutation: Mutation
+    "A simple type for getting started!"
+    hello: String
   }
 `
-
-module.exports = schema
